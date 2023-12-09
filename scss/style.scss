@@ -30,7 +30,9 @@ header{
     }
 }
 
-.header{
-    display: flex;
-}
+ @import "partials/contacto";
+ @import"partials/tienda";
+ @import "partials/trabajos";
+ @import "partials/servicios";
+ 
 
