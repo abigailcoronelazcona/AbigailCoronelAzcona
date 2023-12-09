@@ -7,6 +7,7 @@
   <title>Document</title>
 
   <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
@@ -21,39 +22,94 @@
   </nav>
 </header>
 
-<main>
- <h1> Servicios </h1>
+
+
  <div>
   <h2> Conoce todo lo que ofrecemos</h2>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sequi quibusdam et fugit minima reiciendis maiores voluptates optio recusandae, nesciunt molestias nisi rem odio perspiciatis facilis in ab praesentium earum?
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sequi quibusdam et fugit minima reiciendis maiores voluptates optio recusandae, nesciunt molestias nisi rem odio perspiciatis facilis in ab praesentium earum?
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sequi quibusdam et fugit minima reiciendis maiores voluptates optio recusandae, nesciunt molestias nisi rem odio perspiciatis facilis in ab praesentium earum?
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sequi quibusdam et fugit minima reiciendis maiores voluptates optio recusandae, nesciunt molestias nisi rem odio perspiciatis facilis in ab praesentium earum?
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sequi quibusdam et fugit minima reiciendis maiores voluptates optio recusandae, nesciunt molestias nisi rem odio perspiciatis facilis in ab praesentium earum?
-  </p>
-  <button class="primary-button"> Leer mas </button> 
-</div> 
-
-
-<section>
-  <div class="card">
-    <h3> Diseño ux/ui</h3>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Branding
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Te ayudamos a establecer una estrategia de gestión de marca.</strong> por medio de la planificación, la creación y la administración de los elementos de tu marca.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Marketing Digital
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Tu negocio al proximo nivel</strong> Llevamos tu negocio al universo digital para que tus clientes conozcan cuáles son los productos y servicios que tenés para ofrecer y atraer nuevos clientes con el ﬁn de hacer volar tu marca.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Gestion de Redes
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Gestionamos tus redes sociales para adaptarlas a las necesidades de tu marca y dirigir tu negocio a cumplir con tus objetivos.</strong> Comunicar tus productos y/o servicios en redes sociales es muy importante para aumentar la visibilidad de tu empresa y alcanzar objetivos a corto y largo plazo. Además, permiten darle personalidad a tu marca, otorgándole una voz, un tono y un estilo único.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Diseño Grafico 
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Creamos piezas unicas para tu negocio</strong> Diseño de piezas editoriales, tales como flyers insitucionales, dipticos, tripticos, y catálogos de productos.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          E-comerce
+        </button>
+      </h2>
+      <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Te ayudamos a potenciar tu negocio mediante la creacion de tu sitio para compras online.</strong> Diseñamos y producimos su sitio web Responsivo para garantizar la mejor forma de establecer su presencia online, catalogos de productos y carrito de compras.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          SEM-Publicidad Digital
+        </button>
+      </h2>
+      <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Desarrollo de anuncios y campañas </strong> Desarrollamos anuncios y campañas de publicidad en social media y las Redes Sociales más importantes del mundo para que tus productos o servicios estén al alcance de todos.
+        </div>
+      </div>
+    </div>
   </div>
-</section>
-<section>
-  <div class="card">
-    <h3> Identidad de marca</h3>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-  </div>
-</section>
-<section>
- <div class="card">
-    <h3> Redes Sociales</h3>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-  </div>
-</section>
-
-  </main>
+  <footer>
+    <div class="copy">
+      &copy;2023 - Abigail Coronel
+    </div>
+    <div class="redes">
+      <a href="#">Instagram</a>
+      <a href="#">Tiktok</a>
+      <a href="#">WhatsApp</a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
